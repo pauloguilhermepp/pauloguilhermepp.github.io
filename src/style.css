@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #1c1c1c;
+}
+
+/* NAV BAR */
+header {
+    position: sticky;
+    top: 0;
+    background: #1f3c88;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo {
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* HERO */
+.hero {
+    background: #eef1f7;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+.profile-photo {
+    width: 220px;
+    object-fit: cover;
+    border-radius: 10%;          /* << SQUIRCLE SHAPE */
+    background: #d9d9d9;
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.15);
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+/* RESPONSIVE RULE */
+@media (max-width: 700px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        text-align: center;
+    }
+}
+
+/* SECTIONS */
+.section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.section h2 {
+    border-left: 6px solid #005bbb;
+    padding-left: 15px;
+    color: #1f3c88;
+}
+
+/* CARDS */
+.card {
+    border: 1px solid #d5d5d5;
+    background: white;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 15px 0;
+    box-shadow: 0px 2px 6px #e4e4e4;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1f3c88;
+    color: white;
+    margin-top: 40px;
+}
