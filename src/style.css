@@ -7,6 +7,10 @@ body {
     line-height: 1.8;
 }
 
+section {
+    scroll-margin-top: 40px;
+}
+
 /* NAV BAR */
 header {
     position: sticky;
