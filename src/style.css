@@ -57,11 +57,10 @@ nav a {
     flex-direction: row-reverse;
 }
 
-
 .profile-photo {
     width: 220px;
     object-fit: cover;
-    border-radius: 10%;          /* << SQUIRCLE SHAPE */
+    border-radius: 10%;
     background: #d9d9d9;
     box-shadow: 0px 4px 18px rgba(0,0,0,0.15);
 }
@@ -71,7 +70,6 @@ nav a {
     text-align: left;
 }
 
-/* RESPONSIVE RULE */
 @media (max-width: 700px) {
     .hero-container {
         flex-direction: column;
@@ -95,6 +93,25 @@ nav a {
     color: #1f3c88;
 }
 
+/* CARD HEADER */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.card-header .date {
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+}
+
 /* CARDS */
 .card {
     border: 1px solid #d5d5d5;
@@ -103,18 +120,6 @@ nav a {
     padding: 18px;
     margin: 15px 0;
     box-shadow: 0px 2px 6px #e4e4e4;
-}
-
-.card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100%;
-}
-
-.card-header .date {
-    margin: 0;
-    font-weight: 600;
 }
 
 /* FOOTER */
