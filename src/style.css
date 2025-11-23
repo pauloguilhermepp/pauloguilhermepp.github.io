@@ -105,6 +105,18 @@ nav a {
     box-shadow: 0px 2px 6px #e4e4e4;
 }
 
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.card-header .date {
+    margin: 0;
+    font-weight: 600;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
