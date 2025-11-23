@@ -1,8 +1,10 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #ffffff;
     color: #1c1c1c;
+    font-size: 17px;
+    line-height: 1.8;
 }
 
 /* NAV BAR */
