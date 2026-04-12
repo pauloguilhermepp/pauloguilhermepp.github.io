@@ -13,8 +13,8 @@
         <h1 class="logo">Paulo Guilherme Pinheiro Pereira</h1>
         <ul>
             <li><a href="#about">Overview</a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#achievements">Achievements</a></li>
         </ul>
     </nav>
@@ -26,43 +26,15 @@
         <img src="images/profile.png" alt="Profile Photo" class="profile-photo">
 
         <div class="hero-text">
-            <h2>Computer Science Student @ USP </h2>
+            <h2>Technical Student @ CERN</h2>
             <p>
-                Currently working at CERN, building scalable machine learning platforms
-                using Kubernetes and Helm. Interested in ML engineering, uncertainty quantification, and
-                research with real-world impact.
+                Building scalable machine learning platforms on Kubernetes.<br>
+                Background in MLOps, model lifecycle management, and open-source infrastructure.
             </p>
         </div>
 
     </div>
 </section>
-
-<section id="education" class="section">
-    <h2>Education</h2>
-
-    <div class="card">
-        <div class="card-header">
-            <h3>University of São Paulo (USP) - Bachelor of Computer Science</h3>
-            <p class="date">March 2021 - June 2026</p>
-        </div>
-        <ul>
-            <li>Grade: 9.5/10</li>
-            <li>Top of the class (21 students)</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <h3>Institute of Pure and Applied Mathematics (IMPA) - Summer Student</h3>
-            <p class="date">January 2024 - February 2024</p>
-        </div>
-        <ul>
-            <li>Summer student in the <a href="https://impa.br/postgraduate/training-programs/academic-masters/subjects-academic-masters-degree/machine-learning/?lang=en">Machine Learning</a> course at IMPA (Grade: A/A)</li>
-            <li>Studies funded by the Serrapilheira Scholarship</li>
-        </ul>
-    </div>
-</section>
-
 
 <section id="experience" class="section">
     <h2>Professional Experience</h2>
@@ -70,13 +42,15 @@
 
     <div class="card">
         <div class="card-header">
-            <h3>CERN (European Organization for Nuclear Research) - Technical Student</h3>
+            <h3>CERN (European Organization for Nuclear Research) - Computing Technical Engineer</h3>
             <p class="date">June 2025 - Present</p>
         </div>
         <ul>
-            <li>Developing a Kaggle-like platform for hosting machine learning challenges, enabling large-scale benchmarking and collaborative research across CERN teams.</li>
-            <li>Adapted and deployed the platform to run on Kubernetes via Helm charts, enabling scalable and containerized user submissions with GPU support, persistent volumes, and queue management.</li>
-            <li>Worked with physicists from ATLAS and CMS experiments, as well as IT department staff, to improve the platform, reinforcing collaboration and communication skills.</li>
+            <li>Developed a platform for hosting machine learning challenges, enabling large-scale benchmarking and collaborative research across CERN teams.</li>
+            <li>Designed and maintained GitLab CI/CD pipelines to automatically build and push container images to Harbor, enabling automated image lifecycle management and reproducible deployments via Helm charts.</li>
+            <li>Adapted and deployed the platform to run on Kubernetes, enabling scalable and containerized user submissions with GPU support, persistent volumes, and queue management.</li>
+            <li>Managed a GitOps workflow using ArgoCD for declarative application deployment and synchronization on Kubernetes, managing application state across environments.</li>
+            <li>Authored and upstreamed <a href="https://github.com/codalab/codabench/pull/2055">Helm charts</a> for all core components of Codabench, enabling Kubernetes-native deployments with persistent volumes, ingress, and containerized services — merged into the official open-source repository.</li>
         </ul>
     </div>
 
@@ -86,8 +60,8 @@
             <p class="date">September 2024 - April 2025</p>
         </div>
         <ul>
-            <li>Developed tools to efficiently validate audio transcription accuracy in large datasets, streamlining data quality assurance.</li>
-            <li>Implemented an MLflow environment for efficient model comparison across metrics, enhancing team productivity and management decision-making.</li>
+            <li>Implemented an MLflow environment for model comparison across metrics, supporting model selection and lifecycle management decisions.</li>
+            <li>Developed tools to validate and standardize large-scale transcription corpora for three language variants (Brazilian Portuguese, European Portuguese, and Mexican Spanish) using regex and text processing techniques, ensuring dataset consistency and reproducibility across model versions.</li>
         </ul>
     </div>
 
@@ -97,9 +71,9 @@
             <p class="date">September 2022 - September 2024</p>
         </div>
         <ul>
-            <li>Conducted hyperparameter optimization, meeting the accuracy target for the project.</li>
-            <li>Built Kubeflow pipelines for scalable and efficient machine learning model training.</li>
-            <li>Fine-tuned models using Python and TensorFlow, improving accuracy and performance.</li>
+            <li>Fine-tuned deep learning models for keyword spotting using Python and TensorFlow, achieving Samsung's accuracy target for the project.</li>
+            <li>Built Kubeflow pipelines for scalable and reproducible model training on heterogeneous computing infrastructure.</li>
+            <li>Conducted systematic hyperparameter optimization and model evaluation across training runs, tracking performance metrics to support model lifecycle management decisions.</li>
         </ul>
     </div>
 
@@ -130,11 +104,12 @@
 
     <div class="card">
         <div class="card-header">
-            <h3>Technion’s Summer Research Program in Engineering and Science - Student</h3>
-            <p class="date">July 2024 - August 2024</p>
+            <h3>Harvard Medical School &amp; University of São Paulo - Researcher</h3>
+            <p class="date">June 2024 - May 2025</p>
         </div>
         <ul>
-            <li>Developed a tool to automatically generate crochet instructions from a 3D mesh using Heat Geodesics and prior research, under the supervision of Professor Dr. Mirela Ben-Chen.</li>
+            <li>Developed features and improvements for SlicerTutorialMaker, an automated tool for generating reproducible 3D Slicer training tutorials, under the supervision of Professor Dr. Luiz Otavio Murta.</li>
+            <li>Created multiple tutorials using the SlicerTutorialMaker extension to support outreach and education in medical image computing.</li>
         </ul>
     </div>
 
@@ -157,6 +132,32 @@
         <ul>
             <li>Applied multi-objective approaches to optimize economic portfolios, under the supervision of Professor Dr. Renato Tinós.</li>
             <li>Project funded by the Unified Scholarship Program (PUB).</li>
+        </ul>
+    </div>
+</section>
+
+<section id="education" class="section">
+    <h2>Education</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>University of São Paulo (USP) - Bachelor of Computer Science</h3>
+            <p class="date">March 2021 - June 2026</p>
+        </div>
+        <ul>
+            <li>Grade: 9.5/10</li>
+            <li>Top of the class (21 students)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Institute of Pure and Applied Mathematics (IMPA) - Summer Student</h3>
+            <p class="date">January 2024 - February 2024</p>
+        </div>
+        <ul>
+            <li>Summer student in the <a href="https://impa.br/postgraduate/training-programs/academic-masters/subjects-academic-masters-degree/machine-learning/?lang=en">Machine Learning</a> course at IMPA (Grade: A/A)</li>
+            <li>Studies funded by the Serrapilheira Scholarship</li>
         </ul>
     </div>
 </section>
@@ -193,7 +194,7 @@
 
 
 <footer>
-    © 2025 Paulo Guilherme
+    © 2026 Paulo Guilherme
 </footer>
 
 </body>
